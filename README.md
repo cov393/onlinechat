@@ -1,5 +1,5 @@
 # Let's chat 
-<img alt="ccf" align="right" src="./public/img/favicon.png" width="200">
+<img alt="ccf" align="right" src="./public/img/favicon.png" width="50">
 ## Link
 
 <a a href="https://node-project-deploy.herokuapp.com/"> LINK </a>
