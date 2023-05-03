@@ -16,4 +16,4 @@ The chat room interface consists of a simple design that displays the room name,
 
 Overall, this chat platform is a great way for users to connect with their friends in real-time, regardless of their physical location. The easy-to-use interface and real-time messaging capabilities make it a valuable tool for anyone looking to stay connected with their friends and colleagues.
 
-<img alt="ccf" align="left" src="https://user-images.githubusercontent.com/74015697/236039233-af9c3ee1-d0ef-49eb-89f4-9fe67066ce4a.png" width="200" />
+<img alt="ccf" align="left" src="https://user-images.githubusercontent.com/74015697/236039233-af9c3ee1-d0ef-49eb-89f4-9fe67066ce4a.png" width="400" />
