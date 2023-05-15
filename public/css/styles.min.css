@@ -1,3 +1,56 @@
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+    header {
+        color: lightslategrey;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 1100px;
+        height: 270px;
+    }
+
+
+    header a {
+        margin-top: 80px;
+        width: 300px;
+        height: 100px;
+        font-size: 45px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header h1 {
+        margin-top: 50px;
+        font-size: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p {
+        font-size: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    form {
+        text-align: center;
+        
+
+    }
+
+    form label {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    form p input {
+        width: 250px;
+        height: 70px;
+    }
+
+    body form  {
+        box-shadow: 0 0 17px 1px #1D1F26;
+        background: #F7F7FA;
+        padding: 24px;
+        width: 550px;
+    }
+} */
+
 * {
     margin: 0;
     padding: 0;
