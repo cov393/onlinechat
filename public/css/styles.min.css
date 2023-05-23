@@ -379,6 +379,12 @@ td {
     padding: 0;
     margin-top: 20px;
 } */
+.copyright {
+    position: fixed;
+    bottom: 0;
+    left: 15%;
+
+}
 
 /* Add additional styles as needed for your specific design */
 
