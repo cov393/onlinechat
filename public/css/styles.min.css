@@ -6,6 +6,9 @@
         height: 270px;
     }
 
+    header .message__name {
+        font-size: 500px;
+    }
 
     header a {
         margin-top: 80px;
@@ -20,8 +23,14 @@
         font-size: 70px;
         font-family: Arial, Helvetica, sans-serif;
     }
-
+    
     p {
+        font-size: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    div  p .message_name {
         font-size: 70px;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
@@ -33,14 +42,18 @@
 
     }
 
-    form label {
-        font-size: 45px;
-        text-align: center;
-    }
 
-    form p input {
+    form  input {
+        font-size: 50px;
         width: 250px;
         height: 70px;
+    }
+
+    .send-location button {
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        
     }
 
     body form  {
@@ -49,7 +62,9 @@
         padding: 24px;
         width: 550px;
     }
-} */
+}  */
+
+/* ------------------------------------------- */
 
 * {
     margin: 0;
@@ -219,4 +234,212 @@ button:disabled {
     list-style-type: none;
     font-weight: 300;
     padding: 12px 24px 0
+} 
+
+/* styles.min.css */
+
+/* Reset default browser styles */
+/* html,body,
+div,span,
+applet,object,
+iframe,h1,
+h2,h3,
+h4,h5,
+h6,p,blockquote,
+pre,a,
+abbr,acronym,
+address,big,
+cite,code,
+del,dfn,
+em,img,
+ins,kbd,
+q,s,
+samp,small,
+strike,strong,
+sub,sup,
+tt,var,
+b,u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Set box-sizing to border-box for easier layout calculations */
+/*html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+} */
+
+/* -------------------- */
+/*.message {
+    margin-bottom: 16px
+}
+
+.message__name {
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 8px
+}
+
+.message__meta {
+    color: #777;
+    font-size: 14px
+}
+
+.message a {
+    color: #0070CC
+} */
+
+/* -------------------- */
+
+
+/* Set basic styles for the chat layout */
+
+/*.chat {
+    display: flex
+}
+
+.chat__sidebar {
+    height: 100vh;
+    color: #fff;
+    background: #333744;
+    width: 225px;
+    overflow-y: scroll
+}
+
+.chat__main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh
+}
+
+.chat__messages {
+    flex-grow: 1;
+    padding: 24px 24px 0;
+    overflow-y: scroll
+}
+
+
+.compose {
+    display: flex;
+    flex-shrink: 0;
+    margin-top: 16px;
+    padding: 24px
+}
+
+.compose form {
+    display: flex;
+    flex-grow: 1;
+    margin-right: 16px
+}
+
+.compose input {
+    border: 1px solid #eee;
+    width: 100%;
+    padding: 12px;
+    margin: 0 16px 0 0;
+    flex-grow: 1
+}
+
+.compose button {
+    font-size: 14px
+}
+
+.users {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+} */
+
+/* Add additional styles as needed for your specific design */
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .chat__sidebar {
+        display: none;
+        height: 100vh;
+        color: #fff;
+        background: #333744;
+        width: 225px;
+        overflow-y: scroll
+    }
+
+    .chat {
+        display: flex
+    }
+
+    .chat__main {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        max-height: 100vh
+    }
+
+    .chat__messages {
+        flex-grow: 1;
+        padding: 24px 24px 0;
+        overflow-y: scroll;
+
+        height: 600px;        
+
+
+        display: flex;
+        flex-direction: column;
+        max-height: 100vh;
+    }
+
+    .compose {
+        /* position: fixed; */
+        position: absolute;
+        bottom: 0;
+        /* left: 0; */
+        padding: 24px;
+        flex-shrink: 0;
+        margin-top: 20px;
+        left: 5%;
+        padding-top: 5%;
+    }
+    .compose input {
+        border: 1px solid #eee;
+        width: 100%;
+        padding: 12px;
+        margin: 0 16px 0 0;
+        flex-grow: 1
+    }
+
+    .copyright {
+        position: fixed;
+        bottom: 0;
+        left: 15%;
+
+    }
 }
