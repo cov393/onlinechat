@@ -68,6 +68,10 @@ io.on('connection', (socket) => {
     })
 })
 
+app.get("/api",(request, response) =>{
+    response.json({message:"Hello!"})
+})
+
 server.listen(port, () => {
     console.log(`Server is up on port ${port}!`)
 })
